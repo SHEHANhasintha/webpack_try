@@ -9,7 +9,13 @@
   "author": "shehan",
   "license": "MIT",
   "devDependencies": {
+    "style-loader": "^0.23.1",
     "webpack": "^4.29.4",
     "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "css-loader": "^2.1.0",
+    "jquery": "^3.3.1",
+    "ts-loader": "^5.3.3"
   }
 }
