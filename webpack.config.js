@@ -11,7 +11,8 @@ module.exports = {
 	    rules: [
 	      { test: /\.css$/, use: 'css-loader' },
 	      { test: /\.ts$/, use: 'ts-loader' },
-	      { test: /\.css$/, use: 'style-loader!css-loader'}
+	      { test: /\.css$/, use: 'style-loader!css-loader'},
+	      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/, query:{presets:['es2015']}}
 	    ]
 	  }
 };
