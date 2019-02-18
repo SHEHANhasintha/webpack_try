@@ -1,0 +1,15 @@
+{
+  "name": "webpk",
+  "version": "1.0.0",
+  "description": "ok lets try web pack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "shehan",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  }
+}
